@@ -2,10 +2,10 @@ const Banner = ({ buttontext, handler }) => {
   return (
     <div className="">
       <h1 className="text-3xl flex flex-col justify-start items-start md:flex-row">
-        <span className="text-white font-bold">Coffee</span>
-        <span className="text-blue-600 font-bold md:ml-1">Connoisseur</span>
+        <span className="text-white font-extrabold">Coffee</span>
+        <span className="text-blue-600 font-extrabold md:ml-1">Connoisseur</span>
       </h1>
-      <p className="text-white font-normal text-left">
+      <p className="text-white font-normal text-left mt-2">
         Discover your local coffee shops
       </p>
       <button
